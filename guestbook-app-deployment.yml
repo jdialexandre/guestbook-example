@@ -9,7 +9,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      name: voting-app-pod
+      name: guestbook-app-pod
       app: demo-guestbook
   template:
     metadata: 
